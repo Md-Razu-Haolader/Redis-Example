@@ -6,7 +6,7 @@ namespace App\Services;
 use App\Request\Http\CurlHandler;
 use Predis\Client as Redis;
 
-class Posts
+final class Posts
 {
     private $redis;
     private $curlHandler;
